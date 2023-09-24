@@ -1,8 +1,10 @@
 import {NavLink} from "react-router-dom";
 import Logo from "../Header/Logo/Logo";
+import Banner from "../Header/Banner/Banner";
 const Navbar = () => {
     return (
-        <div className="flex items-center justify-between p-6">
+        <div className="max-w-7xl mx-auto">
+            <div className="flex items-center justify-between p-6">
             <div>
                 <Logo></Logo>
             </div>
@@ -39,6 +41,10 @@ const Navbar = () => {
             </NavLink>
            </div>
             </div>
+        </div>
+        <div>
+            <Banner></Banner>
+        </div>
         </div>
     );
 };
