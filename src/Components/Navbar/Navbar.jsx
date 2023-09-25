@@ -1,6 +1,5 @@
 import {NavLink} from "react-router-dom";
 import Logo from "../Header/Logo/Logo";
-import Banner from "../Header/Banner/Banner";
 const Navbar = () => {
     return (
         <div className="max-w-7xl mx-auto">
@@ -14,7 +13,7 @@ const Navbar = () => {
             <NavLink
                 to="/"
                 className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "text-red-500 underline" : ""
+                    isPending ? "pending" : isActive ? "font-semibold text-red-500 underline" : ""
                 }
             >
                 Home
@@ -24,7 +23,7 @@ const Navbar = () => {
             <NavLink
                 to="/donation"
                 className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "text-red-500 underline" : ""
+                    isPending ? "pending" : isActive ? "font-semibold text-red-500 underline" : ""
                 }
             >
                 Donation
@@ -34,7 +33,7 @@ const Navbar = () => {
            <NavLink
                 to="/statistics"
                 className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "text-red-500 underline" : ""
+                    isPending ? "pending" : isActive ? "text-red-500 font-semibold underline" : ""
                 }
             >
                 Statistics
@@ -42,9 +41,7 @@ const Navbar = () => {
            </div>
             </div>
         </div>
-        <div>
-            <Banner></Banner>
-        </div>
+       
         </div>
     );
 };
