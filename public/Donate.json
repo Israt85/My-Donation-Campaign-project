@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "Picture": "https://i.ibb.co/dGrRKFw/Health.png",
+        "Title": "Health Product 1",
+        "Category": "Health",
+        "Category_bg": "#FF5733",
+        "Card_bg": "#EDEDED",
+        "Text_button_bg": "#4286f4",
+        "Description": "Support your well-being with this amazing health product.",
+        "Price": 99.99
+    },
+    {
+        "id": 2,
+        "Picture": "https://i.ibb.co/jkDMHjZ/Food.png",
+        "Title": "Food Item 1",
+        "Category": "Food",
+        "Category_bg": "#FFC300",
+        "Card_bg": "#F5F5F5",
+        "Text_button_bg": "#2ECC71",
+        "Description": "Delicious and nutritious food item for your enjoyment.",
+        "Price": 49.99
+    },
+    {
+        "id": 3,
+        "Picture": "https://i.ibb.co/M29j1Pq/Clothing.png",
+        "Title": "Clothing Item 1",
+        "Category": "Clothing",
+        "Category_bg": "#FF5733",
+        "Card_bg": "#EDEDED",
+        "Text_button_bg": "#4286f4",
+        "Description": "Stay stylish with this trendy clothing item.",
+        "Price": 149.99
+    },
+    {
+        "id": 4,
+        "Picture": "https://i.ibb.co/WsS59pv/Education.png",
+        "Title": "Education Course 1",
+        "Category": "Education",
+        "Category_bg": "#FFC300",
+        "Card_bg": "#F5F5F5",
+        "Text_button_bg": "#2ECC71",
+        "Description": "Expand your knowledge with this insightful educational course.",
+        "Price": 29.99
+    },
+    {
+        "id": 5,
+        "Picture": "https://i.ibb.co/dGrRKFw/Health.png",
+        "Title": "Health Product 2",
+        "Category": "Health",
+        "Category_bg": "#FF5733",
+        "Card_bg": "#EDEDED",
+        "Text_button_bg": "#4286f4",
+        "Description": "Enhance your health and vitality with this exceptional product.",
+        "Price": 79.99
+    },
+    {
+        "id": 6,
+        "Picture": "https://i.ibb.co/jkDMHjZ/Food.png",
+        "Title": "Food Item 2",
+        "Category": "Food",
+        "Category_bg": "#FFC300",
+        "Card_bg": "#F5F5F5",
+        "Text_button_bg": "#2ECC71",
+        "Description": "Savor the flavors of this delectable food item.",
+        "Price": 199.99
+    },
+    {
+        "id": 7,
+        "Picture": "https://i.ibb.co/M29j1Pq/Clothing.png",
+        "Title": "Clothing Item 2",
+        "Category": "Clothing",
+        "Category_bg": "#FF5733",
+        "Card_bg": "#EDEDED",
+        "Text_button_bg": "#4286f4",
+        "Description": "Upgrade your wardrobe with this fashionable clothing item.",
+        "Price": 59.99
+    },
+    {
+        "id": 8,
+        "Picture": "https://i.ibb.co/WsS59pv/Education.png",
+        "Title": "Education Course 2",
+        "Category": "Education",
+        "Category_bg": "#FFC300",
+        "Card_bg": "#F5F5F5",
+        "Text_button_bg": "#2ECC71",
+        "Description": "Acquire valuable skills and knowledge with this educational course.",
+        "Price": 129.99
+    },
+    {
+        "id": 9,
+        "Picture": "https://i.ibb.co/dGrRKFw/Health.png",
+        "Title": "Health Product 3",
+        "Category": "Health",
+        "Category_bg": "#FF5733",
+        "Card_bg": "#EDEDED",
+        "Text_button_bg": "#4286f4",
+        "Description": "Take a step towards a healthier you with this remarkable product.",
+        "Price": 39.99
+    },
+    {
+        "id": 10,
+        "Picture": "https://i.ibb.co/jkDMHjZ/Food.png",
+        "Title": "Food Item 3",
+        "Category": "Food",
+        "Category_bg": "#FFC300",
+        "Card_bg": "#F5F5F5",
+        "Text_button_bg": "#2ECC71",
+        "Description": "Indulge in the taste of this scrumptious food item.",
+        "Price": 69.99
+    },
+    {
+        "id": 11,
+        "Picture": "https://i.ibb.co/M29j1Pq/Clothing.png",
+        "Title": "Clothing Item 3",
+        "Category": "Clothing",
+        "Category_bg": "#FF5733",
+        "Card_bg": "#EDEDED",
+        "Text_button_bg": "#4286f4",
+        "Description": "Stay fashionable and comfortable with this clothing item.",
+        "Price": 79.99
+    },
+    {
+        "id": 12,
+        "Picture": "https://i.ibb.co/WsS59pv/Education.png",
+        "Title": "Education Course 3",
+        "Category": "Education",
+        "Category_bg": "#FFC300",
+        "Card_bg": "#F5F5F5",
+        "Text_button_bg": "#2ECC71",
+        "Description": "Expand your horizons with this enlightening educational course.",
+        "Price": 49.99
+    }
+]
