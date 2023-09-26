@@ -1,28 +1,21 @@
 import { useEffect, useState } from "react";
-import { useLoaderData } from "react-router-dom";
-import { getCardInfo } from "../../../Utility/LocalStorage";
 import DonateCard from "./DonateCard";
+import { useLoaderData } from "react-router-dom";
 
 const Donation = () => {
     const [giveDonate, setGiveDonate] = useState([]);
-    const donates = useLoaderData();
+    const card = useLoaderData
+    console.log(card)
+
 
     useEffect(() => {
-        const donateIds = getCardInfo();
-        if (donates.length > 0) {
-            const donation = [];
-            for (const id of donateIds) {
-                const donate = donates.find((donate) => donate.id === id);
-                if (donate) {
-                    donation.push(donate);
-                }
-            }
-            setGiveDonate(donation);
-        }
-    }, [donates]); // Make sure to add 'donates' as a dependency here
-
+        const getCard = JSON.parse(localStorage.getItem('test'));
+        setGiveDonate(getCard)
+        console.log(getCard)
+    }, []); // Make sure to add 'donates' as a dependency here
+        
     return (
-        <div>
+        <div className="max-w-7xl grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
             {giveDonate.map((dona) => (
                 <DonateCard key={dona.id} dona={dona}></DonateCard>
             ))}

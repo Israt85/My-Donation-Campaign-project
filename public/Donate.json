@@ -6,7 +6,7 @@
         "category": "Clothing",
         "category_bg": "#79C23F",
         "card_bg": "#F3FDE8",
-        "text_button_bg": "#4286f4",
+        "text_button_bg": "#EEEDED",
         "description": "Stay stylish with this trendy clothing item.",
         "price": 149.99
     },
@@ -17,7 +17,7 @@
         "category": "Food",
         "category_bg": "#F6635C",
         "card_bg": "#EEE0C9",
-        "text_button_bg": "#2ECC71",
+        "text_button_bg": "#EEEDED",
         "description": "Delicious and nutritious food item for your enjoyment.",
         "price": 49.99
     },
@@ -28,7 +28,7 @@
         "category": "Health",
         "category_bg": "#2F58CD",
         "card_bg": "#78C1F3",
-        "text_button_bg": "#4286f4",
+        "text_button_bg": "#EEEDED",
         "description": "Support your well-being with this amazing health product.",
         "price": 99.99
     },
@@ -39,7 +39,7 @@
         "category": "Education",
         "category_bg": "#CD1818",
         "card_bg": "#FFBFBF",
-        "text_button_bg": "#2ECC71",
+        "text_button_bg": "#EEEDED",
         "description": "Expand your knowledge with this insightful educational course.",
         "price": 29.99
     },
@@ -50,7 +50,7 @@
         "category": "Health",
         "category_bg": "#2F58CD",
         "card_bg": "#78C1F3",
-        "text_button_bg": "#4286f4",
+        "text_button_bg": "#EEEDED",
         "description": "Enhance your health and vitality with this exceptional product.",
         "price": 79.99
     },
@@ -61,7 +61,7 @@
         "category": "Education",
         "category_bg": "#CD1818",
         "card_bg": "#FFBFBF",
-        "text_button_bg": "#2ECC71",
+        "text_button_bg": "#EEEDED",
         "description": "Acquire valuable skills and knowledge with this educational course.",
         "price": 129.99
     },
@@ -72,7 +72,7 @@
         "category": "Clothing",
         "category_bg": "#79C23F",
         "card_bg": "#F3FDE8",
-        "text_button_bg": "#4286f4",
+        "text_button_bg": "#EEEDED",
         "description": "Upgrade your wardrobe with this fashionable clothing item.",
         "price": 59.99
     },
@@ -83,7 +83,7 @@
         "category": "Food",
         "category_bg": "#F6635C",
         "card_bg": "#EEE0C9",
-        "text_button_bg": "#2ECC71",
+        "text_button_bg": "#EEEDED",
         "description": "Savor the flavors of this delectable food item.",
         "price": 199.99
     },
@@ -94,7 +94,7 @@
         "category": "Clothing",
         "category_bg": "#79C23F",
         "card_bg": "#F3FDE8",
-        "text_button_bg": "#4286f4",
+        "text_button_bg": "#EEEDED",
         "description": "Stay fashionable and comfortable with this clothing item.",
         "price": 79.99
     },
@@ -105,7 +105,7 @@
         "category": "Food",
         "category_bg": "#F6635C",
         "card_bg": "#EEE0C9",
-        "text_button_bg": "#2ECC71",
+        "text_button_bg": "#EEEDED",
         "description": "Indulge in the taste of this scrumptious food item.",
         "price": 69.99
     },
@@ -116,7 +116,7 @@
         "category": "Health",
         "category_bg": "#2F58CD",
         "card_bg": "#78C1F3",
-        "text_button_bg": "#4286f4",
+        "text_button_bg": "#EEEDED",
         "description": "Take a step towards a healthier you with this remarkable product.",
         "price": 39.99
     },
@@ -127,7 +127,7 @@
         "category": "Education",
         "category_bg": "#CD1818",
         "card_bg": "#FFBFBF",
-        "text_button_bg": "#2ECC71",
+        "text_button_bg": "#EEEDED",
         "description": "Expand your horizons with this enlightening educational course.",
         "price": 49.99
     }
