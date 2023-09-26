@@ -36,6 +36,8 @@ const SingleDetails = ({ card }) => {
                 <h2 className="text-4xl font-bold py-5">{title}</h2>
                 <p>{description}</p>
             </div>
+            <div>
+            </div>
             <ToastContainer />
         </div>
     );
