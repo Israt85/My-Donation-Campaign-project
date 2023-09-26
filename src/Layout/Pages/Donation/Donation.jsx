@@ -4,29 +4,28 @@ import { getCardInfo } from "../../../Utility/LocalStorage";
 import DonateCard from "./DonateCard";
 
 const Donation = () => {
-    const [giveDonate, setGiveDonate] = useState([])
+    const [giveDonate, setGiveDonate] = useState([]);
     const donates = useLoaderData();
-    
 
-    useEffect(()=>{
-         const  donateIds = getCardInfo()
-           if(donates.length>0){
+    useEffect(() => {
+        const donateIds = getCardInfo();
+        if (donates.length > 0) {
             const donation = [];
-            for (const id of donateIds){
-                const donate = donates.find((donate => donate.id === id));
-                if(donate){
-                    donation.push(donate)
+            for (const id of donateIds) {
+                const donate = donates.find((donate) => donate.id === id);
+                if (donate) {
+                    donation.push(donate);
                 }
             }
-            setGiveDonate(donation)
-           }
-           
-    },[])
+            setGiveDonate(donation);
+        }
+    }, [donates]); // Make sure to add 'donates' as a dependency here
+
     return (
         <div>
-            {
-                giveDonate.map((dona => <DonateCard key={dona.id} dona={dona}></DonateCard> ))
-            }
+            {giveDonate.map((dona) => (
+                <DonateCard key={dona.id} dona={dona}></DonateCard>
+            ))}
         </div>
     );
 };
