@@ -13,7 +13,7 @@ const DonateCard = ({dona}) => {
                         className="h-full w-full object-cover"
                     />
                 </div>
-                <div className="p-6">
+                <div className="p-4">
                     <div>
                         <h4 className=" w-24 rounded text-center block font-sans text-xl font-semibold border" style={{ backgroundColor: category_bg, color: card_bg }}>
                             {category}
