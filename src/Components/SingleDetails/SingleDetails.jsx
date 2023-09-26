@@ -29,12 +29,16 @@ const SingleDetails = ({ card }) => {
     }
     return (
         <div>
-            <div className="max-w-7xl h-[500px] mx-auto px-20">
-                <img className="relative w-full h-full pt-5" src={picture} alt="" />
-
-                <button onClick={notify} className="hover:bg-red-800 absolute mx-6 -mt-16 border-2 rounded-xl px-4 py-3 text-lg font-medium text-white"style={{backgroundColor:category_bg}} >Donate:${price} </button>
-                <h2 className="text-4xl font-bold py-5">{title}</h2>
+            <div className="max-w-5xl h-[400px] mx-auto px-20">
+                <div className="relative w-full h-full pt-2">
+                <img className="relative w-full h-full pt-2" src={picture} alt="" />
+                
+                <div className='w-full h-20 absolute -mt-20 bg-black opacity-50'> </div>
+                <button onClick={notify} className="absolute block -mt-16 mx-6 border-2 rounded-xl px-4 py-3 text-lg font-medium text-white"style={{backgroundColor:category_bg}} >Donate:${price} </button>
+                
+                <h2 className="text-4xl font-bold py-4">{title}</h2>
                 <p>{description}</p>
+            </div>
             </div>
             <div>
             </div>

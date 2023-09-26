@@ -1,11 +1,11 @@
 
 const DonateCard = ({dona}) => {
-    const {id,category,picture,title,category_bg, card_bg,text_button_bg } = dona;
+    const {id,category,picture,title,category_bg, card_bg,text_button_bg } = dona||[]
     
     
     return (
         <div className="w-full">
-            <div className="relative my-2 flex mx-2 flex-row rounded-xl bg-clip-border shadow-md" style={{backgroundColor:card_bg }}>
+            <div className="relative my-2 flex mx-2 flex-row rounded-xl bg-clip-border shadow-md" style={{backgroundColor:card_bg}}>
                 <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
                     <img
                         src={picture}

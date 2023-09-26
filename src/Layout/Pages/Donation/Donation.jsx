@@ -27,8 +27,8 @@ const Donation = () => {
 
             }
         </div>
-            <div><button onClick={()=> setIsShow(!isShow)} className="bg-green-700 px-5 py-2 text-center block mx-auto rounded-lg text-white" >
-               {!isShow?'See All': 'See less' }</button></div>
+            <div className={isShow &&'hidden'}><button onClick={()=> setIsShow(!isShow)} className="bg-green-700 px-5 py-2 text-center block mx-auto rounded-lg text-white" >
+              Show All </button></div>
         </div>
     );
 };
