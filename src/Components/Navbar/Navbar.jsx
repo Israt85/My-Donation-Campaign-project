@@ -3,7 +3,7 @@ import Logo from "../Header/Logo/Logo";
 const Navbar = () => {
     return (
         <div className="max-w-7xl mx-auto">
-            <div className="flex lg:flex-row  md:flex-col items-center justify-between p-6">
+            <div className="flex lg:flex-row flex-col items-center justify-between p-6">
             <div>
                 <Logo></Logo>
             </div>

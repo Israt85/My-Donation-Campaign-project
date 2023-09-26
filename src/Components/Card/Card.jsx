@@ -1,10 +1,9 @@
 import { Link, useNavigate } from "react-router-dom";
 
 const Card = ({card}) => {
-    const {id,category,picture,title,category_bg, card_bg } = card;
+    const {id,category,picture,title,category_bg, card_bg, text_button_bg } = card;
      const cardStyle = {
-    backgroundColor:card_bg ,
-    color :category_bg
+    backgroundColor:card_bg
 };
 
 
@@ -19,10 +18,10 @@ const Card = ({card}) => {
     />
   </div>
   <div className="p-6">
-    <h4 className=" w-24 rounded text-center block font-sans text-xl font-semibold border" style={{backgroundColor:category_bg, color: card_bg }}>
+    <h4 className=" w-24 rounded text-center block font-sans text-xl font-bold border" style={{backgroundColor:category_bg, color:text_button_bg }}>
       {category}
     </h4>
-    <p className="mt-3 block font-sans text-xl font-normal leading-relaxed text-gray-700 antialiased" style={{color: category_bg }}>
+    <p className="mt-3 block font-sans text-xl font-bold leading-relaxed text-gray-700 antialiased" style={{color: text_button_bg }}>
      {title}
     </p>
   </div>

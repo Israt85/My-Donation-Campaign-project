@@ -35,14 +35,15 @@ const Statistics = () => {
     <div>
         <h2 className="text-center font-bold">PIE CHART</h2>
 
-      <ResponsiveContainer width="80%" height={400}>
-        <PieChart>
+      <div>
+      <ResponsiveContainer width="100%" height={400}>
+        <PieChart >
           <Pie
             data={data}
             cx="50%"
             cy="50%"
             labelLine={false}
-            outerRadius={80}
+            outerRadius={150}
             fill="#8884d8"
             dataKey="value"
             label={renderCustomizedLabel}
@@ -54,11 +55,12 @@ const Statistics = () => {
           <Tooltip />
         </PieChart>
       </ResponsiveContainer>
+      </div>
       <div>
       </div>
-      <div className="flex">
-        <h2 className="flex pl-10 items-center font-bold text-lg">Your Donation  <p className="w-6 ml-2 my-auto h-4 block bg-[#D80032]"></p></h2>
-        <h2 className="flex px-10 items-center font-bold text-lg ">Total Donation  <p className="w-6 ml-2 my-auto h-4 block bg-[#367E18]"></p></h2>
+      <div className="flex gap-2 items-center justify-center">
+        <h2 className="flex items-center font-bold text-sm">Your Donation  <p className="w-8 ml-2 my-auto h-4 block bg-[#D80032]"></p></h2>
+        <h2 className="flex items-center font-bold text-sm">Total Donation  <p className="w-8 ml-2 my-auto h-4 block bg-[#367E18]"></p></h2>
       </div>
     </div>
   );
