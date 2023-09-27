@@ -15,17 +15,17 @@ const DonateCard = ({dona}) => {
                 </div>
                 <div className="p-4">
                     <div>
-                        <h4 className=" w-24 rounded text-center block font-sans text-xl font-semibold border" style={{ backgroundColor: category_bg, color: card_bg }}>
+                        <h4 className=" w-24 rounded text-center block font-sans text-xl font-semibold border" style={{ backgroundColor: category_bg,color: text_button_bg }}>
                             {category}
                         </h4>
-                        <p className="mt-3 block font-sans text-xl font-normal leading-relaxed text-gray-700 antialiased" style={{ color: category_bg }}>
+                        <p className="mt-3 block font-sans text-xl font-normal leading-relaxed antialiased" style={{ color:text_button_bg }}>
                             {title}
                         </p>
                     </div>
                     <a className="inline-block" href="#">
                         <button
                             className="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold"
-                            type="button" style={{backgroundColor: category_bg,color:text_button_bg}}
+                            type="button" style={{backgroundColor: category_bg}}
                         >
                             View Details
                         </button>
